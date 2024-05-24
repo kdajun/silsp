@@ -13,7 +13,7 @@ words = ["knowledge", "hardwork", "attitude"]
 words = list(map(len,words))
 >    >출력
 words
-
+#동전 던지기 게임
 >랜덤 모듈 도입
 import random
 >    >함수 정의
@@ -28,6 +28,7 @@ def dongjeon(k) :
 k_ = str(input("head(앞면)과 tail(뒷면) 중 하나를 입력하십시오. : "))
 dongjeon(k_)
 
+#대문자는 소문자로,소문자는 대문자로 변환하기
 >영어 문자열 입력받기
 en = str(input("영어문자열을 입력하십시오 : "))
 >    >영어 소문자 리스트에 속하는지 판별하고 있으면 대문자로 바꾸고 없으면 소문자로 변환 
